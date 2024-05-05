@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+</head>
+<style>
+    body
+    {
+        background-color:dimgray;
+        color: aliceblue;
+    }
+    header{
+        background: black;
+        height:60px;
+        width: 100%;
+        color:rgb(234, 231, 228);
+        display:flex;
+        align-items:center;
+    }
+    .container {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.praha:hover{
+        border-color: red;
+        color: black;
+        background-color: red;
+        padding: 2px;
+        padding-top: 4px;
+        padding-bottom: 4px;      
+      }
+    .logo{
+    font-size:24px;
+    margin-top:10px;
+    margin-left: 38%;
+  }
+  nav ul li {
+    list-style: none;
+    display:inline;
+    margin-right: 20px;
+    color: aliceblue;
+    font-size: larger;
+    font-weight:550;
+  }
+  .kaaju{
+        background-color: gray;
+        color: black;
+        background-color: gray;
+        padding: 2px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+    }
+  a{
+    text-decoration: none;
+  }
+  .bappu:hover{
+        background-color: chartreuse;
+  }
+</style>
+<body>
+    <header>
+        <div class="container">
+        <h1 class="logo" align="center"><center>Welcome  To  Our  Contact us  Page</center></h1>
+        <nav>
+            <ul class="nav-list">
+               <a href="index.html"><li class="praha">Home</li></a> 
+              <a  href="about.html"><li class="praha">About</li></a>  
+              <a href="contact_us.html"><li class="kaaju" class="praha">Contact</li></a>  
+              <a href="login.html"><li class="praha">logout</li></a> 
+            </ul>
+        </nav>
+    </div>
+    </header>
+    <h1><center><strong><u>CONTACT US</u></strong></center></h1>
+  <center><p>Have a Question? Reach out to us!</p>
+    
+    <form action="submit_form.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="message">FEEDBACK:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+
+        <input class="bappu" type="submit"  value="Submit" >
+    </form>
+  
+    <footer>
+        <p><STRONG>Contact us at: ourrecipe@gmail.com | Phone: 1234567890</STRONG></p></center>
+    </footer>
+</body>
+</html>
+</body>
+</html>

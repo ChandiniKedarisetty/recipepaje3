@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe login Form</title>
+    <style>
+        body{
+            background-color:darkgrey;
+            float:left;
+            margin-left: 37%;
+            padding: 25px;     
+        }
+        form{
+            background-color:papayawhip;  
+            width:100%;   
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba( 0, 0, 0, 0.7);
+        }
+        label{
+            font-weight: bold;
+        }
+        input[type="text"], input[type="email"], input[type="tel"] {
+            padding: 8px;
+            border-color: rgb(187, 127, 22);  
+            box-sizing: border-box;
+            border-radius: 7px;
+            width: 250px;
+        }
+        button{
+            width: 100px; 
+        }
+        button:hover{
+            background-color: rgb(81, 198, 81);
+        }
+    </style>
+</head>
+<body>
+    <h1 align="center">RECIPE PAGE</h1>
+    <form >
+        <label>Name:</label><br>
+        <input type="text" placeholder="enter your name" ><br>
+
+        <label >Email:</label><br>
+        <input type="email" placeholder="example@gmail.com" ><br>
+
+        <label >Mobile number: </label><br>
+        <input type="tel" pattern="[0-9]{10}" maxlength="10" minlength="10" ><br><br>
+        
+            <a href="index.html"><button  type="button" class="button" name="button" id="button" style="margin-left: 30%;">login</button></a><br>
+       
+    </form>
+    
+</body>
+</html>
